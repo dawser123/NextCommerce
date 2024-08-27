@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.slick-arrow::before {
+  color: #0056b3 !important;
+  z-index: 10 !important;
+  color: whi;
+  font-size: 30px !important;
+}
+.slick-arrow::after {
+
+  font-size: 30px !important;
+}
+.slick-next {
+  right: 8px !important;
+  z-index: 10 !important;
+
+}
+.slick-prev {
+  z-index: 10 !important;
+
+  left: 1px !important;
+}
+
+.slick-slide {
+  padding: 1rem 0 !important;
+}
+.slick-slider {
+  padding: 1rem 0 !important;
+  margin: 0 auto !important;
+}
+.slick-slide li {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin: 0 auto !important;
+}
+.slick-dots li.slick-active button:before {
+  color: #0056b3  !important;
+}
+.slick-dots li button:before {
+  font-size: 12px !important;
+  color: white !important;
+}
