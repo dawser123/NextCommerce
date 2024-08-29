@@ -19,12 +19,12 @@ const CartItemCard = () => {
   }
 
   return (
-    <div className="mb-10 flex flex-col lg:flex-row">
+    <div className="mb-10 flex flex-col lg:flex-row lg:items-start lg:gap-10 justify-between  ">
  
         <ul className="rounded-lg bg-primaryColor ">
           {items.map((item) => (
             <li
-              className="flex  flex-col border border-secondaryColor/25 my-10 rounded-lg bg-primaryColor px-5 py-10"
+              className="flex flex-col border border-secondaryColor/85 my-10 lg:mb-10 lg:my-0  rounded-lg  bg-primaryColor px-5 py-10"
               key={item.id}
             >
               <Image

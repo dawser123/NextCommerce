@@ -8,10 +8,11 @@ const CartItemSummary = ({ subTotal }: { subTotal: number }) => {
   const orderTotal = subTotal + shippingCost;
 
   const orderedItems = () => {
+    alert('Are you sure?(checkout in proggress)')
     setItems([]);
   };
   return (
-    <div className="flex h-1/4 flex-col gap-5 rounded-lg bg-gray-900 p-6 shadow-lg lg:w-1/4">
+    <div className="flex h-1/4 lg:top-[120px] flex-col lg:sticky gap-5 rounded-lg bg-gray-900 p-6 shadow-lg lg:w-1/4">
       <h3 className="mb-6 text-2xl font-bold text-primaryTextColor">
         Order Summary
       </h3>
