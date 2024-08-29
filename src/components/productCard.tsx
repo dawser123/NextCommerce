@@ -1,5 +1,5 @@
 import { requests } from "@/api/requests";
-import ProductImageCard from "@/components/productImage";
+import ProductImage from "@/components/productImage";
 import { Product } from "@/types/product";
 import ProductFeatures from "./productFeatures";
 import ProductInfo from "./productInfo";
@@ -9,8 +9,8 @@ const ProductCard = async ({ params }: { params: { id: string } }) => {
   const product: Product = await response.json();
   return (
     <>
-      <ProductImageCard
-        className={"mx-auto "}
+      <ProductImage
+        className={"mx-auto min-w-[300px] "}
         src={product.image}
         alt={product.title}
       />
