@@ -11,7 +11,7 @@ const Header = () => {
         <Container>
           <nav className="flex items-center justify-between">
             <h1 className="text-2xl uppercase md:text-3xl">
-              <Link href={"/"}>Topstore</Link>
+              <Link href={"/"}>Nextcommerce</Link>
             </h1>
             <HeaderActions />
           </nav>
