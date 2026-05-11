@@ -12,7 +12,7 @@ const ProductImage = ({ src, alt, className }: ImageCard) => {
         width={300}
         priority
         height={300}
-        quality={100}
+        quality={75}
       />
     </>
   );
